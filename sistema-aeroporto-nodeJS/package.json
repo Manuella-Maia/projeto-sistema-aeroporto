@@ -1,0 +1,17 @@
+{
+  "name": "sistema-aeroporto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "menuPrincipal.js",
+  "scripts": {
+    "start": "node menuPrincipal.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
