@@ -1,4 +1,16 @@
 <?php
+    /**
+     * PassagemService
+     * Serviço responsável pelo processo de compra de passagens.
+     *
+     * Coordena a validação e ocupação do assento e a criação
+     * de uma nova passagem associada ao voo selecionado.
+     *
+     * @package SistemaAeroporto
+     * @author Manuella Maia Lopes
+     * @version 1.0.0
+     * @since 1.0.0
+     */
 
     class PassagemService{
         private int $proximoId = 1;
