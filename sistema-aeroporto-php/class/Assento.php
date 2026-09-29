@@ -1,5 +1,17 @@
 <?php
-
+    /**
+    * Assento
+    * Representa um assento disponível em um voo.
+    *
+    * Controla a identificação e o estado de ocupação do assento,
+    * permitindo verificar e registrar sua utilização.
+    *
+    * @package SistemaAeroporto
+    * @author Manuella Maia Lopes
+    * @version 1.0.0
+    * @since 1.0.0
+    */
+    
     class Assento{
         private string $codigo;
         private bool $ocupado;

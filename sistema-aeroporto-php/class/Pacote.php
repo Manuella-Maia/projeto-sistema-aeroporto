@@ -1,5 +1,18 @@
 <?php
 
+    /**
+     * Pacote
+     * Representa um pacote de viagem associado a passagens aéreas.
+     *
+     * Mantém as passagens incluídas no pacote e controla seu estado,
+     * permitindo a associação e o cancelamento do pacote.
+     *
+     * @package SistemaAeroporto
+     * @author Manuella Maia Lopes
+     * @version 1.0.0
+     * @since 1.0.0
+     */
+
     class Pacote{
         private int $id;
         private string $nome;

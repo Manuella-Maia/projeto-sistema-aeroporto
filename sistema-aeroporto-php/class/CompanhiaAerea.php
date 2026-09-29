@@ -1,4 +1,16 @@
 <?php
+    /**
+     * CompanhiaAerea
+     * Representa uma companhia aérea participante da plataforma InterAirlines.
+     *
+     * Armazena os dados da companhia e mantém os voos disponibilizados
+     * por ela na plataforma.
+     *
+     * @package SistemaAeroporto
+     * @author Manuella Maia Lopes
+     * @version 1.0.0
+     * @since 1.0.0
+     */
 
     class CompanhiaAerea{
         private int $id;

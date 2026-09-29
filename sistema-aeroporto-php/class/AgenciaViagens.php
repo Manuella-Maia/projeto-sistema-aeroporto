@@ -1,5 +1,17 @@
 <?php
-
+    /**
+    * AgenciaViagens
+    * Representa uma agência de viagens que utiliza a plataforma InterAirlines.
+    *
+    * Armazena os dados da agência e permite realizar operações de pesquisa
+    * de voos por meio da plataforma intermediadora.
+    *
+    * @package SistemaAeroporto
+    * @author Manuella Maia Lopes
+    * @version 1.0.0
+    * @since 1.0.0
+    */
+    
     class AgenciaViagens{
         private int $id;
         private string $nome; 

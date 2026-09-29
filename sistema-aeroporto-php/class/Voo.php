@@ -1,4 +1,17 @@
 <?php
+    /**
+     * Voo
+     * Representa um voo disponibilizado por uma companhia aérea.
+     *
+     * Armazena informações como origem, destino, horários, aeronave,
+     * capacidade, valor, companhia aérea e assentos disponíveis.
+     *
+     * @package SistemaAeroporto
+     * @author Manuella Maia Lopes
+     * @version 1.0.0
+     * @since 1.0.0
+     */
+
     class Voo{
         private int $id;
         private string $origem;

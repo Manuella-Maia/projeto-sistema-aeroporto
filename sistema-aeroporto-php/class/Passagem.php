@@ -1,4 +1,17 @@
 <?php
+    /**
+     * Passagem
+     * 
+     * Representa uma passagem aérea adquirida para um voo.
+     *
+     * Mantém a associação entre o voo e o assento selecionado
+     * e controla o estado da passagem.
+     *
+     * @package SistemaAeroporto
+     * @author Manuella Maia Lopes
+     * @version 1.0.0
+     * @since 1.0.0
+     */
 
     class Passagem{
         private int $id;
