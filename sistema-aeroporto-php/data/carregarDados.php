@@ -1,5 +1,22 @@
 <?php
 
+    /**
+     * carregarInterAirlines
+     * 
+     * Carregamento e inicialização dos dados do sistema.
+     *
+     * Responsável por transformar os dados armazenados nos arquivos
+     * de dados em objetos de domínio e estabelecer seus relacionamentos,
+     * disponibilizando uma instância configurada da plataforma InterAirlines.
+     *
+     * @package SistemaAeroporto
+     * @author Manuella Maia Lopes
+     * @version 1.0.0
+     * @since 1.0.0
+     * @return InterAirlines
+     */
+
+
     require_once __DIR__ . '/voos.php';
     require_once __DIR__ . '/companhias.php';
 
@@ -81,6 +98,6 @@
             $companhia->adicionarVoo($voo);
         }
 
-
         return $interAirlines;
     }
+?>

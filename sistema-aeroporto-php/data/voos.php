@@ -1,6 +1,18 @@
 <?php
-    // esse arquivo contém os dados de voos disponíveis, 
-  // a implementação consiste em um array ($voos) com arrays associativos (chave-valor)
+
+    /**
+     * Dados dos voos disponibilizados no sistema.
+     *
+     * Contém os dados utilizados para inicializar os objetos de voo,
+     * incluindo informações de rota, horários, aeronave, companhia,
+     * valor e assentos.
+     *
+     * @package SistemaAeroporto
+     * @author Manuella Maia Lopes
+     * @version 1.0.0
+     * @since 1.0.0
+     */
+
     $voos = [
         [
             "id" => 1,
@@ -122,3 +134,4 @@
         ]
 ];
 
+?>
